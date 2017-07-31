@@ -40,14 +40,14 @@ void loop() {
    
   /* Affiche les résultats en mm, cm et m */
   Serial.print(F("Distance: "));
-  Serial.print(distance_mm);
-  Serial.print(F("mm ("));
+  //Serial.print(distance_mm);
+  //Serial.print(F("mm ("));
   Serial.print(distance_mm / 10.0, 2);
-  Serial.print(F("cm, "));
-  Serial.print(distance_mm / 1000.0, 2);
-  Serial.println(F("m)"));
+  Serial.println(F("cm"));
+ // Serial.print(distance_mm / 1000.0, 2);
+  //Serial.println(F("m)"));
    
   /* Délai d'attente pour éviter d'afficher trop de résultats à la seconde */
-  delay(500);
+  delay(1000);
 }
 
