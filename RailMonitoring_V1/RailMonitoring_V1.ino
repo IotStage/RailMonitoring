@@ -8,9 +8,7 @@
 
 
 DHT dht;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 RH_RF95 rf95;
 float frequency = 868.0;
 ENCRYPT encrypt_decrypt;
