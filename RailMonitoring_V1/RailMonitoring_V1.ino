@@ -17,15 +17,6 @@ ENCRYPT encrypt_decrypt;
 unsigned char encryptkey[16]={0x01,0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF,0x01,0x23,0x45,0x67,0x89,0xAB,0xCD,0xEF};
 
 
-=======
-//test
->>>>>>> a4241d60d646d340b42281fe2a9fef5ff5eeb130
-=======
-//test
->>>>>>> a4241d60d646d340b42281fe2a9fef5ff5eeb130
-=======
-//test
->>>>>>> a4241d60d646d340b42281fe2a9fef5ff5eeb130
 //Ultrasound Sensor
 int trig = 3;
 int echo = 4;
