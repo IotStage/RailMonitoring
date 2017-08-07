@@ -1,8 +1,8 @@
 /* Utilisation du capteur Ultrason HC-SR04 */
 
 // définition des broches utilisées
-int trig = 2;
-int echo = 3;
+int trig = 4;
+int echo = 12;
 long lecture_echo;
 long cm;
 
