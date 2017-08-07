@@ -1,7 +1,7 @@
 #include "DHT.h"
 
 DHT dht;
-
+//test
 //Ultrasound Sensor
 int trig = 2;
 int echo = 3;
